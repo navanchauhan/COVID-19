@@ -1,19 +1,9 @@
-# competition
-covid_2019_competition_results.ipynb is main document with results were all the method is described
+# Possible Drugs for Combating COVID-19
 
+The base code is a fork of Tinka Vidovic's submission for Sage Health Competition
 
-6lu7cov.pdb is pdb structure of coronavirus protease without  small molecule or drug that was bind to this protease
+The main notebook is a colab compatible Juypter notebook used to find possible drugs which can inhibit COVID-19. 10 each from mers and sars CMAP analysis were taken and the duplicates were removed.
 
+This gave us a list of 14 possible drugs
 
-ChEBI_39867 (1).sdf is sdf file of valproic acid used for Pyrx docking (Vina search space set to maximum)
-
-
-valproic_acid_binding_energy.sdf and valproic_acid_inding_energy.csv are results of binding affinity energy between
-coronavirus main protease and valproic acid
-
-
-sars_results.csv and mers_results.csv are results of drugs that could inhibit (negative connectivity score) and mimic (positive 
-connectivity score) coronavirus infection
-
-
-HCoV_EMC2012_24Hour_23631916_GSE45042.csv and icSARS_Cov_Day7_None_GSE50000.csv are data used for main CMap analysis
+The respective SDF files for these ligands were then docked using PyRX and AutoDock Vina
