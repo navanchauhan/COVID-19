@@ -7,3 +7,5 @@ The main notebook is a colab compatible Juypter notebook used to find possible d
 This gave us a list of 14 possible drugs
 
 The respective SDF files for these ligands were then docked using PyRX and AutoDock Vina
+
+The SDF files are present in the Docking folder along with docking results
